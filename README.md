@@ -1,38 +1,60 @@
-# tixhub-vue
+# TixHub
 
-This template should help get you started developing with Vue 3 in Vite.
+TixHub is a modern ticket management platform built to simplify how teams handle issues and support requests. With a clean, intuitive interface, it allows users to create, track, and resolve tickets efficiently—all in one place.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+- Create, edit, and delete tickets  
+- Set ticket priority and status  
+- Filter and search tickets  
+- Responsive and user-friendly interface  
+- Login/logout with session management  
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Frontend:** vue js
+- **Storage:** LocalStorage (for tickets & session)  
+- **Version Control:** Git & GitHub  
 
-## Project Setup
+it also has other versions built with react and twig     https://tixhub-react-version-acma.vercel.app/     https://tixhub-twig-version.onrender.com/ 
+---
 
-```sh
-npm install
-```
+## Folder Structure
 
-### Compile and Hot-Reload for Development
+/assets
+/css
+/js
+/images
+/templates
+/components
+/layout
+/pages
+index.php
 
-```sh
-npm run dev
-```
+yaml
+Copy code
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Diablo247/tixhub-vue-version.git
+
+Navigate to the terminal on the project folder and run "npm run dev"
+
+Usage
+Visit /login to log in
+
+Navigate to /tickets to view and manage tickets
+
+Use /about to learn more about TixHub
+
+Contributing
+Feel free to fork the repository and submit pull requests. Make sure to follow coding standards and best practices.
+
